@@ -25,9 +25,9 @@
 
         <?php foreach($data as $row) : ?>
         <tr>
-            <td><?php echo $i++; ?> </td>
             <td><?php echo $row['model'] ; ?></td>
             <td><?php echo $row['brand']; ?></td>
+            <td><?php echo $row['quantity']; ?></td>
             <td><img src="../carsImg/<?php echo $row['image'];?>" alt=""></td>
         </tr>
         <?php endforeach;?>
